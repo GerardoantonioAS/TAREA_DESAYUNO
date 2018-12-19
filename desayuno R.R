@@ -15,15 +15,33 @@ agregar elemento
 "palta molida"<-"14"
 "cafe caliente"<-"15"
 
-agregar función
-"mezclar"<-function(huevos,harina)return(`masa para panqueque`)
-"calentar sarten"<-function(`masa para panqueque`)return(`masa lista`)
-"rellenar masa"<-function(`masa lista`)return(panqueque relleno)
-"servir"<-function(`panqueque relleno`,`jugo de naranja`,`pan con palta`,`cafe caliente`)
-"cortar"<-function(naranjas,palta)return(`naranja cortada`,`palta cortada`)
-"preparar jugo"<-function(`naranja cortada`)return(`jugo de naranja`)
-"calentar"<-function(pan,cafe)return(`pan caliente`,`cafe caliente`)
-"moler"<-function(`palta cortada`)return(`palta molida`)
-"preparar pan con palta"<-function(`pan caliente`,`palta molida`)return(`pan con palta`)
+agregar funciÃ³n
+"mezclar"<-function(x){
+  if{(x==huevos){
+    return(`masa para panqueque`)}else if(x==harina){
+    return(pan caliente)
+    }else{return(paste("undefined"))}}
+  
+"calentar sarten"<-function(x){
+  if{(x==masa para panqueque)return(`masa lista`)}
+"rellenar masa"<-function(x){
+  if{(x==masa lista)} return(panqueque relleno)}
+  
+"servir"<-function(x){
+  (`panqueque relleno`,`jugo de naranja`,`pan con palta`,`cafe caliente`)
+  
+"cortar"<-function(x){
+  (naranjas,palta)return(`naranja cortada`,`palta cortada`)
+  
+"preparar jugo"<-function(x){
+  (`naranja cortada`)return(`jugo de naranja`)
+  
+"calentar"<-function(x){
+  if{x==pan)return(`pan caliente`,`cafe caliente`)else(x==cafe)
+    
+"moler"<-function(x){if
+  (x==palta cortada)return(palta molida)
+"preparar pan con palta"<-function(x){
+  (`pan caliente`,`palta molida`)return(`pan con palta`)
 
 
